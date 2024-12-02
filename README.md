@@ -1,6 +1,8 @@
 # Practica-THREE-JS
 Practica para graficacion otoño 2024
 
+DEMO : https://minepacman.github.io/Practica-THREE-JS/
+
 Este proyecto utiliza Three.js para crear una escena 3D animada en el navegador. Incluye las siguientes características:
 
 Renderización y Escena:
