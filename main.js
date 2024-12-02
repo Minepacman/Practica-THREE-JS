@@ -13,9 +13,10 @@ camera.position.set(0, 0, 500);
 
 // Crear la escena
 var escena = new THREE.Scene();
-escena.background = new THREE.Color(0xE8E8E8); // Fondo azul cielo
 
 //texturas
+const fondo = loader.load('https://th.bing.com/th/id/R.a015ee86c2358b308712536239b9ef4c?rik=5zTQfK2kQmZXIw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f1%2fb%2f1198641-4k-galaxy-wallpaper-3840x2160-for-tablet.jpg&ehk=AKFeBmkcwXo90W3LljrHexcHKTOGDjcCgCriHNenrkw%3d&risl=&pid=ImgRaw&r=0');
+escena.background = fondo; 
 const textura1 = loader.load( 'https://www.shutterstock.com/image-illustration/world-texture-satellite-image-earth-600nw-1776531926.jpg' );
 const textura2 = loader.load('https://static.vecteezy.com/system/resources/previews/002/948/785/original/pixel-minecraft-style-land-background-vector.jpg');
 const textura3 = loader.load('https://th.bing.com/th/id/OIP.XYcG-sq3QfgHrF8kHmiqXgHaE8?rs=1&pid=ImgDetMain');
